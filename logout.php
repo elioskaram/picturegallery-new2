@@ -15,7 +15,7 @@ if (!isset ($_SESSION['username'])){
 	header ('location: index.php');
 }
 else{
-	echo "Something is wrong.." ;
+	echo "Something is wrong..." ;
 }
 
 mysqli_close ($connection);
